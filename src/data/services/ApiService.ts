@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { ApiLinksInterface } from 'data/@types/ApiLinksInterface';
 import { LocalStorage } from './StorageService';
 
-const url = process.env.NEXT_PUBLIC_API;
+const url = process.env['NEXT_PUBLIC_API'];
 
 export const ApiService = axios.create({
     baseURL: url,

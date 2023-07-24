@@ -3,6 +3,6 @@ import AppTheme from 'ui/themes/app-theme';
 
 type PaperThemeType = typeof AppTheme;
 
-declare module '@emotion/react' {
+declare module '@emotion/native' {
     export interface Theme extends PaperThemeType {}
 }

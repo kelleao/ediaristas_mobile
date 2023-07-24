@@ -3,7 +3,7 @@ import { ThemeProvider as EmotionProvider } from '@emotion/react';
 import { Provider as PaperProvider } from 'react-native-paper';
 import AppTheme from './app-theme';
 
-// @ts-ignore
+//@ts-ignore
 const ThemeProvider: React.FC = ({ children }) => {
     return (
         <EmotionProvider theme={AppTheme}>
