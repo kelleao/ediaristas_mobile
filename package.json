@@ -25,7 +25,7 @@
     "expo-location": "~16.1.0",
     "expo-permissions": "~14.2.1",
     "expo-status-bar": "~1.6.0",
-    "expo-updates": "~0.18.10",
+    "expo-updates": "~0.18.11",
     "immer": "^9.0.16",
     "intl": "^1.2.5",
     "pagarme": "^4.28.0",
